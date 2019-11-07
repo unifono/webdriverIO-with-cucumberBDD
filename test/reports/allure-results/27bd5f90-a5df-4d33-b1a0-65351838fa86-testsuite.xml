@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1573127148553' stop='1573127158762'>
+    <name>Demo app end-to-end example: House falls into gold mine</name>
+    <title>Demo app end-to-end example: House falls into gold mine</title>
+    <test-cases>
+        <test-case start='1573127148558' status='passed' stop='1573127153535'>
+            <name>Given I am on the start page</name>
+            <title>Given I am on the start page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573127153535' status='passed' stop='1573127157261'>
+            <name>When I start a new claim</name>
+            <title>When I start a new claim</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573127157261' status='passed' stop='1573127157344'>
+            <name>When I select home as the property type</name>
+            <title>When I select home as the property type</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573127157344' status='passed' stop='1573127158680'>
+            <name>When I save and continue</name>
+            <title>When I save and continue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573127158680' status='broken' stop='1573127158759'>
+            <name>When I confirm the property is still accessible</name>
+            <title>When I confirm the property is still accessible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'click' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'click' of undefined
+                    at World.&lt;anonymous> (C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\test\stepDefinitions/when.js:32:55)
+                    at World.executeSync (C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\node_modules\@wdio\sync\build\index.js:44:18)
+                    at C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\node_modules\@wdio\sync\build\index.js:87:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1573127158760' status='pending' stop='1573127158760'>
+            <name>When I enter 01 01 1970 as the subsidence start date</name>
+            <title>When I enter 01 01 1970 as the subsidence start date</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1573057879466' stop='1573057886512'>
+    <name>Performing a login: </name>
+    <title>Performing a login: </title>
+    <test-cases>
+        <test-case start='1573057879470' status='passed' stop='1573057883011'>
+            <name>Given I am on the start page</name>
+            <title>Given I am on the start page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573057883011' status='passed' stop='1573057886188'>
+            <name>When I start a new claim</name>
+            <title>When I start a new claim</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573057886188' status='passed' stop='1573057886510'>
+            <name>When I save and continue</name>
+            <title>When I save and continue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573057886510' status='passed' stop='1573057886511'>
+            <name>Then I am asked if the property is still accessible</name>
+            <title>Then I am asked if the property is still accessible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

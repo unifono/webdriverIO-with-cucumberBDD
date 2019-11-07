@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1573133266828' stop='1573133280720'>
+    <name>Demo app end-to-end example: House falls into gold mine</name>
+    <title>Demo app end-to-end example: House falls into gold mine</title>
+    <test-cases>
+        <test-case start='1573133266832' status='passed' stop='1573133270686'>
+            <name>Given I am on the start page</name>
+            <title>Given I am on the start page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573133270686' status='passed' stop='1573133274130'>
+            <name>When I start a new claim</name>
+            <title>When I start a new claim</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573133274130' status='passed' stop='1573133274214'>
+            <name>When I select home as the property type</name>
+            <title>When I select home as the property type</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573133274214' status='passed' stop='1573133274909'>
+            <name>When I save and continue</name>
+            <title>When I save and continue</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573133274910' status='passed' stop='1573133275709'>
+            <name>When I confirm the property is still accessible</name>
+            <title>When I confirm the property is still accessible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573133275709' status='passed' stop='1573133279869'>
+            <name>When I enter 01 01 1970 as the subsidence start date</name>
+            <title>When I enter 01 01 1970 as the subsidence start date</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1573133279869' status='passed' stop='1573133280717'>
+            <name>When I select gold mine</name>
+            <title>When I select gold mine</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

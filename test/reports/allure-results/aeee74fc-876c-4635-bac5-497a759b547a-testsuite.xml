@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572972476871' stop='1572972576742'>
+    <name>Performing a login: Performing login operation with passing test data as data table</name>
+    <title>Performing a login: Performing login operation with passing test data as data table</title>
+    <test-cases>
+        <test-case start='1572972476879' status='passed' stop='1572972486731'>
+            <name>Given I am on the phptravels page</name>
+            <title>Given I am on the phptravels page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572972486731' status='broken' stop='1572972576738'>
+            <name>When I login with username and password "user@phptravels.com" "demouser" into the text box</name>
+            <title>When I login with username and password "user@phptravels.com" "demouser" into the text box</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>function timed out, ensure the promise resolves within 90000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 90000 milliseconds
+                    at Timeout._time.default.setTimeout [as _onTimeout] (C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\node_modules\cucumber\lib\user_code_runner.js:81:20)
+                    at ontimeout (timers.js:436:11)
+                    at tryOnTimeout (timers.js:300:5)
+                    at listOnTimeout (timers.js:263:5)
+                    at Timer.processTimers (timers.js:223:10)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1572972576738' status='pending' stop='1572972576740'>
+            <name>Then I should see the message "Hi, Demo User" on my account page</name>
+            <title>Then I should see the message "Hi, Demo User" on my account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

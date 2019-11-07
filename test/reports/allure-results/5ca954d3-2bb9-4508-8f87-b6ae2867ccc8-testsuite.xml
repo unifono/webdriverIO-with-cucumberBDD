@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1572880309752' stop='1572880311982'>
+    <name>Performing a Yahoo Search: Performing a search operation</name>
+    <title>Performing a Yahoo Search: Performing a search operation</title>
+    <test-cases>
+        <test-case start='1572880309762' status='failed' stop='1572880311978'>
+            <name>Given I am on the search page</name>
+            <title>Given I am on the search page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'Yahoo is now part of Verizon Media' to equal 'Yahoo Search - Web Search'</message>
+                <stack-trace>AssertionError: expected 'Yahoo is now part of Verizon Media' to equal 'Yahoo Search - Web Search'
+                    at World.&lt;anonymous> (C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\test\stepDefinitions/given.js:11:31)
+                    at World.executeSync (C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\node_modules\@wdio\sync\build\index.js:44:18)
+                    at C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\node_modules\@wdio\sync\build\index.js:87:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1572880311979' status='pending' stop='1572880311979'>
+            <name>When I enter "Selenium Webdriver" into the search box</name>
+            <title>When I enter "Selenium Webdriver" into the search box</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572880311980' status='pending' stop='1572880311980'>
+            <name>And I click the search button</name>
+            <title>And I click the search button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1572880311980' status='pending' stop='1572880311980'>
+            <name>Then I should see a list of search results</name>
+            <title>Then I should see a list of search results</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-78.0.3904.87'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

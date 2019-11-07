@@ -2,17 +2,21 @@
 import myAccount from '../pageobjects/ta-myaccount.page';
 import { defineSupportCode } from 'cucumber';
 import yahooPage from '../pageobjects/yahoo-search.page';
-
+import ffcDemoPropertyType from '../pageobjects/ffc-demo-property-type';
+import ffcDemoEmail from '../pageobjects/ffc-demo-email';
 
 defineSupportCode(function({ Then }) {
-  // *** belongs to Yahoo serch feature
-  Then(/^I should see a list of search results$/, function() {
-    yahooPage.isSearched().should.be.true;
-  });
 
-  // *** belongs to ta-loging  feature
-  Then(/^I should see the message "([^"]*)" on my account page$/, function(message) {
-    myAccount.getUserInfo().should.equal(message);
-  });
+    // *** belongs to fcc-demo feature
+    Then(/^I am asked if the property is still accessible$/, function() {
+      //ffcDemoPropertyType.propertyStillAccessible.message.true();
+      //const header = $('h1=Is the property is still accessible?')
+      //console.log(header.getText())
+      
+    });
+
+    Then(/^I am told the service is unavailable$/, function() {
+      ffcDemoEmail.unavailableService.isExisting();
+    });
 
 });

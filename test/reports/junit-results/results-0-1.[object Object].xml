@@ -1,35 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Performing_a_Yahoo_Search" timestamp="2019-10-08T23:01:14" time="11.055" tests="0" failures="0" errors="0" skipped="0">
+  <testsuite name="Performing_a_Yahoo_Search" timestamp="2019-11-05T13:48:33" time="7.131" tests="0" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Performing a Yahoo Search"/>
-      <property name="capabilities" value="chrome.77_0_3865_90.macosx"/>
-      <property name="file" value="./test/features/yahoo-search.feature"/>
+      <property name="capabilities" value="chrome.78_0_3904_87.windowsnt"/>
+      <property name="file" value=".\test\features\yahoo-search.feature"/>
     </properties>
   </testsuite>
-  <testsuite name="Performing_a_search_operation" timestamp="2019-10-08T23:01:14" time="6.746" tests="4" failures="0" errors="0" skipped="0">
+  <testsuite name="Performing_a_search_operation" timestamp="2019-11-05T13:48:33" time="3.715" tests="4" failures="0" errors="1" skipped="3">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Performing a search operation"/>
-      <property name="capabilities" value="chrome.77_0_3865_90.macosx"/>
-      <property name="file" value="./test/features/yahoo-search.feature"/>
+      <property name="capabilities" value="chrome.78_0_3904_87.windowsnt"/>
+      <property name="file" value=".\test\features\yahoo-search.feature"/>
     </properties>
-    <testcase classname="chrome.77_0_3865_90.macosx.Performing_a_search_operation" name="Given_I_am_on_the_search_page" time="1.699"/>
-    <testcase classname="chrome.77_0_3865_90.macosx.Performing_a_search_operation" name="When_I_enter_Selenium_Webdriver_into_the_search_box" time="1.362"/>
-    <testcase classname="chrome.77_0_3865_90.macosx.Performing_a_search_operation" name="And_I_click_the_search_button" time="3.445"/>
-    <testcase classname="chrome.77_0_3865_90.macosx.Performing_a_search_operation" name="Then_I_should_see_a_list_of_search_results" time="0.232"/>
+    <testcase classname="chrome.78_0_3904_87.windowsnt.Performing_a_search_operation" name="Given_I_am_on_the_search_page" time="3.707">
+      <error message="expected 'Yahoo is now part of Verizon Media' to equal 'Yahoo Search - Web Search'"/>
+      <system-err>
+        <![CDATA[
+AssertionError: expected 'Yahoo is now part of Verizon Media' to equal 'Yahoo Search - Web Search'
+    at World.<anonymous> (C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\test\stepDefinitions/given.js:11:31)
+    at World.executeSync (C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\node_modules\@wdio\sync\build\index.js:44:18)
+    at C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\node_modules\@wdio\sync\build\index.js:87:70
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.78_0_3904_87.windowsnt.Performing_a_search_operation" name="When_I_enter_Selenium_Webdriver_into_the_search_box" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.78_0_3904_87.windowsnt.Performing_a_search_operation" name="And_I_click_the_search_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.78_0_3904_87.windowsnt.Performing_a_search_operation" name="Then_I_should_see_a_list_of_search_results" time="0">
+      <skipped/>
+    </testcase>
   </testsuite>
-  <testsuite name="Performing_a_search_operation_with_passing_test_data_as_data_table" timestamp="2019-10-08T23:01:20" time="4.251" tests="4" failures="0" errors="0" skipped="0">
+  <testsuite name="Performing_a_search_operation_with_passing_test_data_as_data_table" timestamp="2019-11-05T13:48:37" time="3.218" tests="4" failures="0" errors="1" skipped="3">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Performing a search operation with passing test data as data table"/>
-      <property name="capabilities" value="chrome.77_0_3865_90.macosx"/>
-      <property name="file" value="./test/features/yahoo-search.feature"/>
+      <property name="capabilities" value="chrome.78_0_3904_87.windowsnt"/>
+      <property name="file" value=".\test\features\yahoo-search.feature"/>
     </properties>
-    <testcase classname="chrome.77_0_3865_90.macosx.Performing_a_search_operation_with_passing_test_data_as_data_table" name="Given_I_am_on_the_search_page" time="1.731"/>
-    <testcase classname="chrome.77_0_3865_90.macosx.Performing_a_search_operation_with_passing_test_data_as_data_table" name="When_I_enter_Selenium_Webdriver_into_the_search_box" time="1.597"/>
-    <testcase classname="chrome.77_0_3865_90.macosx.Performing_a_search_operation_with_passing_test_data_as_data_table" name="And_I_click_the_search_button" time="0.773"/>
-    <testcase classname="chrome.77_0_3865_90.macosx.Performing_a_search_operation_with_passing_test_data_as_data_table" name="Then_I_should_see_a_list_of_search_results" time="0.144"/>
+    <testcase classname="chrome.78_0_3904_87.windowsnt.Performing_a_search_operation_with_passing_test_data_as_data_table" name="Given_I_am_on_the_search_page" time="3.213">
+      <error message="expected 'Yahoo is now part of Verizon Media' to equal 'Yahoo Search - Web Search'"/>
+      <system-err>
+        <![CDATA[
+AssertionError: expected 'Yahoo is now part of Verizon Media' to equal 'Yahoo Search - Web Search'
+    at World.<anonymous> (C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\test\stepDefinitions/given.js:11:31)
+    at World.executeSync (C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\node_modules\@wdio\sync\build\index.js:44:18)
+    at C:\Users\ddraper\Documents\code\defra\wdio\webdriverIO-with-cucumberBDD\node_modules\@wdio\sync\build\index.js:87:70
+]]>
+      </system-err>
+    </testcase>
+    <testcase classname="chrome.78_0_3904_87.windowsnt.Performing_a_search_operation_with_passing_test_data_as_data_table" name="When_I_enter_Selenium_Webdriver_into_the_search_box" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.78_0_3904_87.windowsnt.Performing_a_search_operation_with_passing_test_data_as_data_table" name="And_I_click_the_search_button" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.78_0_3904_87.windowsnt.Performing_a_search_operation_with_passing_test_data_as_data_table" name="Then_I_should_see_a_list_of_search_results" time="0">
+      <skipped/>
+    </testcase>
   </testsuite>
 </testsuites>
