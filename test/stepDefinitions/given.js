@@ -11,4 +11,11 @@ defineSupportCode(function({ Given }) {
     startPage.open();     // navigating to login page
   });
 
+  // *** belongs to ffc-poc feature
+  Given(/^I am a homeowner$/, function() {
+    startPage.open();     // navigating to login page
+    ffcDemoPropertyType.open();
+    ffcDemoPropertyType.homeRadioButton.click();
+  });
+
 });
