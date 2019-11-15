@@ -66,8 +66,8 @@ exports.config = {
 
           {
                browserName: 'phantomjs',
-               platform: '',
-               version: '',
+               //platform: '',
+               //version: '',
                maxInstances: '5',
           
                  specs: [
